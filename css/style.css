@@ -1,0 +1,38 @@
+.callout1{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ), url(../img/d1za65.jpg) no-repeat center center scroll;
+}
+
+.callout2{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ), url(../img/ezf4654f6.jpg) no-repeat center center scroll;
+}
+
+.callout3{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ), url(../img/dza456da.jpg) no-repeat center center scroll;
+}
+
+fieldset{
+    border: 1px solid #007BFF;
+    border-radius: 2px;
+}
+
+legend{
+    width: 30%;
+}
+
+.important{
+    color: #007BFF;
+    font-size: 20px;
+}
+
+fieldset ul{
+    list-style: none;
+}
