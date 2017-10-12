@@ -23,7 +23,7 @@
     background: linear-gradient(
       rgba(0, 0, 0, 0.45), 
       rgba(0, 0, 0, 0.45)
-    ), url(../img/g456h48j.jpg) no-repeat center center scroll;
+    ), url(../img/ezf4654f6.jpg) no-repeat center center scroll;
 }
 
 .callout5{
@@ -43,10 +43,21 @@ legend{
 }
 
 .important{
-    color: #ffffff;
     font-size: 25px;
 }
 
-.call-to-action ul{
+ul{
     list-style: none;
+}
+
+.img-circle{
+    border-radius: 10%;
+}
+
+.margin-bottom{
+    margin-bottom: 50px;
+}
+
+.color-light{
+    color: #5F6A75;
 }
