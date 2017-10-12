@@ -19,6 +19,20 @@
     ), url(../img/dza456da.jpg) no-repeat center center scroll;
 }
 
+.callout4{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ), url(../img/g456h48j.jpg) no-repeat center center scroll;
+}
+
+.callout5{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ), url(../img/4564d6hg4re.jpg) no-repeat center center scroll;
+}
+
 fieldset{
     border: 1px solid #007BFF;
     border-radius: 2px;
@@ -29,10 +43,10 @@ legend{
 }
 
 .important{
-    color: #007BFF;
-    font-size: 20px;
+    color: #ffffff;
+    font-size: 25px;
 }
 
-fieldset ul{
+.call-to-action ul{
     list-style: none;
 }
