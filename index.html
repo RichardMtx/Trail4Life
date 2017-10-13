@@ -20,6 +20,7 @@
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/photos.css" rel="stylesheet">
 
   </head>
 
@@ -37,19 +38,25 @@
           <a class="js-scroll-trigger" href="#top">Trail4life</a>
         </li>
         <li>
-          <a class="js-scroll-trigger" href="#top">Acceuil</a>
+          <a class="js-scroll-trigger" href="#video">Vidéo de présentation</a>
         </li>
         <li>
-          <a class="js-scroll-trigger" href="#about">4L Trophy</a>
+          <a class="js-scroll-trigger" href="#4lTrophy">4L Trophy</a>
         </li>
         <li>
-          <a class="js-scroll-trigger" href="#services">L'association</a>
+          <a class="js-scroll-trigger" href="#association">Association</a>
+        </li>
+        <li>
+          <a class="js-scroll-trigger" href="#financement">Financement</a>
+        </li>
+        <li>
+          <a class="js-scroll-trigger" href="#mediatisation">Médiatisation</a>
         </li>
         <li>
           <a class="js-scroll-trigger" href="#portfolio">Photos</a>
         </li>
         <li>
-          <a class="js-scroll-trigger" href="#contact" onclick='$( "#menu-close").click();'>Contact</a>
+          <a class="js-scroll-trigger" href="#contact">Contact</a>
         </li>
       </ul>
     </nav>
@@ -66,7 +73,7 @@
     </header>
 
     <!-- About -->
-    <section id="about" class="about">
+    <section id="video" class="about">
       <div class="container text-center">
             <h2>&laquo; Le plus grand Rallye étudiant au Monde &raquo; <small>Turbo - M6</small></h2>
             <p class="lead">&laquo; Mais, plus que de simples chiffres, le Raid 4L Trophy est une formidable aventure humaine, sportive et solidaire &raquo; <small>La Dépêche</small></p>
@@ -97,7 +104,7 @@
     </section>-->
 
     <!-- Callout -->
-    <aside class="callout callout1">
+    <aside id="4lTrophy" class="callout callout1">
       <div class="text-vertical-center">
         <h1>Le 4L Trophy</h1>
       </div>
@@ -145,7 +152,7 @@
     </aside>
     
     <!-- Callout -->
-    <aside class="callout callout3">
+    <aside id="association" class="callout callout3">
       <div class="text-vertical-center">
         <h1>L'association</h1>
       </div>
@@ -178,7 +185,7 @@
     </section>
 
     <!-- Callout -->
-    <aside class="callout callout4">
+    <aside id="financement" class="callout callout4">
       <div class="text-vertical-center">
         <h1>Le financement</h1>
       </div>
@@ -187,11 +194,26 @@
     <section class="about">
         <div class="container text-center">
             <h4>Notre budget</h4>
-            <p>azer</p>
+            <p class="">Afin de participer à cette grande aventure qui réunie partage et découverte, nous avons besoin de vous !<br>
+                Pour réaliser l'ampleur du projet, nous souhaitions vous faire part de notre budget prévisionnel qui s'élève à 8500€.</p>
+            <h5 class="margin-bottom">C'est avec vous que nous vivrons cette incroyable expérience !</h5>
+            <div class="row">
+                <div class="canvas-container margin-bottom">
+                    <canvas id="myChart" width="400" height="400"></canvas>
+                </div>
+            </div>
             
             <p>Il existe plusieurs possibilités pour nous aider dans la concrétisation de ce projet. En nous aidant, vous soutenez un <b>projet à taille humaine</b> dont l'objectif est explicite et uniquement à <b>but humanitaire</b>. Vous deviendrez également ambassadeur du 4L Trophy 2018.</p>
             <h4>Le Partenariat Financier</h4>
-            <p>Nous vous proposons d'afficher votre logo sur notre 4L pour toute la durée du raid. Nous vous proposons des emplacements pour votre logo suivant la valeur de votre don.</p>
+            <div class="row">
+                <div class="col-sm-6 align-middle">
+                    <div>Nous vous proposons d'afficher votre logo sur notre 4L pour toute la durée du raid. Nous vous proposons des emplacements pour votre logo suivant la valeur de votre don.</div>
+                </div>
+                <div class="col-sm-6">
+                    <img class="img-fluid" alt="emplacement des logos sur la 4L" src="img/4h6fdh468tr.png" />
+                </div>
+            </div>
+            
             <h4>Le Partenariat En Nature</h4>
             <p>Ce raid nécessite beaucoup de fournitures telles que des stylos, cahiers, chaussures de sport, cartables, trousses mais aussi pièces de rechange pour la 4L…</p>
             <h4>Le Financement Participatif</h4>
@@ -203,13 +225,19 @@
     
     <aside class="call-to-action bg-primary text-white">
       <div class="container text-center">
-          <h3><i class="fa fa-book"></i> Bon à savoir</h3>
-        <hr>
-        <p>Les dons aux associations peuvent être défiscalisés avec une demande auprès de la Direction Départementale des Finances Publiques.</p>
+            <h3><i class="fa fa-book"></i> Bon à savoir</h3>
+            <hr>
+            <p>Les dons aux associations peuvent être défiscalisés avec une demande auprès de la Direction Départementale des Finances Publiques.</p>
+            <hr>
+            <p>Un encart publicitaire
+                dans un magazine coûte
+                très cher. Avec nous, vous
+                serez affiché pour une
+                période d’un an.</p>
       </div>
     </aside>
     
-    <aside class="callout callout5">
+    <aside id="mediatisation" class="callout callout5">
       <div class="text-vertical-center">
         <h1>Médiatisation</h1>
       </div>
@@ -309,38 +337,28 @@
           <div class="col-lg-10 mx-auto text-center">
             <h2>Photos</h2>
             <hr class="small">
-            <div class="row">
+            <div class="row margin-bottom">
               <div class="col-md-6">
-                <div class="portfolio-item">
-                  <a href="#">
-                    <img class="img-portfolio img-fluid" src="img/portfolio-1.jpg">
-                  </a>
-                </div>
+                <figure class="photo-luxury">
+                    <img src="img/photos/LogoCorrection.png" alt="logo" />
+                    <figcaption>
+                      <h3>Trail4Life</h3>
+                      <h4>Le logo</h4>
+                    </figcaption>
+                  </figure>
               </div>
               <div class="col-md-6">
-                <div class="portfolio-item">
-                  <a href="#">
-                    <img class="img-portfolio img-fluid" src="img/portfolio-2.jpg">
-                  </a>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="portfolio-item">
-                  <a href="#">
-                    <img class="img-portfolio img-fluid" src="img/portfolio-3.jpg">
-                  </a>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="portfolio-item">
-                  <a href="#">
-                    <img class="img-portfolio img-fluid" src="img/portfolio-4.jpg">
-                  </a>
-                </div>
+                <figure class="photo-luxury">
+                    <img src="img/photos/4l-trophy-logo.png" alt="logo" />
+                    <figcaption>
+                      <h3>4L Trophy</h3>
+                      <h4>Le logo</h4>
+                    </figcaption>
+                  </figure>
               </div>
             </div>
             <!-- /.row (nested) -->
-            <a href="#" class="btn btn-dark">View More Items</a>
+            <a href="#" class="btn btn-dark">Voir plus de photos !</a>
           </div>
           <!-- /.col-lg-10 -->
         </div>
@@ -359,7 +377,7 @@
     </section>-->
 
     <!-- Footer -->
-    <footer>
+    <footer id="contact">
       <div class="container">
         <div class="row">
           <div class="col-lg-10 mx-auto text-center">
@@ -412,9 +430,33 @@
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/chart.js/Chart.bundle.min.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/stylish-portfolio.js"></script>
+    
+    <script type="text/javascript">
+        var myChart = new Chart($('#myChart'), {
+            type:'pie',
+            options:{
+//                responsive: true,
+//                maintainAspectRatio: false
+            },
+            data:{
+                labels: ["Inscription au 4L Trophy", "Achat de la 4L", "Assurance", "Essence et péages", "Divers"],
+                datasets: [{
+                    data: [3690, 2900, 400, 1000, 500],
+                    backgroundColor: [
+                        "#007BFF",
+                        "#F7CA18",
+                        "#3FC380",
+                        "#D64541",
+                        "#E87E04"
+                    ]
+                }]
+            }
+        });
+    </script>
 
   </body>
 

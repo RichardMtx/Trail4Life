@@ -21,6 +21,9 @@ gulp.task('copy', function() {
 
   gulp.src(['node_modules/jquery.easing/*.js'])
     .pipe(gulp.dest('vendor/jquery-easing'))
+   
+  gulp.src(['node_modules/chart.js/dist/Chart.bundle.min.js', 'node_modules/chart.js/dist/Chart.min.js'])
+    .pipe(gulp.dest('vendor/chart.js'))
 
   gulp.src([
       'node_modules/font-awesome/**',
