@@ -58,6 +58,10 @@ ul{
     margin-bottom: 50px;
 }
 
+.margin-top{
+    margin-top: 50px;
+}
+
 .color-light{
     color: #5F6A75;
 }
@@ -68,8 +72,8 @@ ul{
 }
 
 .align-middle{
-    display: inline-block !important;
-    vertical-align: middle;
+    display: flex;
+    align-items: center;
 }
 
 .canvas-container{
@@ -77,4 +81,16 @@ ul{
     min-width: 300px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.btn-blue{
+    color: #ffffff;
+    background-color: #007bff;
+    border-radius: 0px;
+    border: none;
+}
+
+.btn-blue:hover{
+    color: #ffffff;
+    background-color: #0056b3;
 }
