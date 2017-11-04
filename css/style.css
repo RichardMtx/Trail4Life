@@ -193,3 +193,12 @@ ul{
         font-size: 2.5em;
     }
 }
+
+.btn-group{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.btn-start{
+    min-width: 210px;
+}
